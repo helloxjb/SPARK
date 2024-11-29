@@ -1,0 +1,310 @@
+2024-11-29:14:29:39 [main.py]: model: icarl
+2024-11-29:14:29:39 [main.py]: convnet: rebuffi
+2024-11-29:14:29:39 [main.py]: dropout: 0.0
+2024-11-29:14:29:39 [main.py]: herding: None
+2024-11-29:14:29:39 [main.py]: memory_size: 2000
+2024-11-29:14:29:39 [main.py]: temperature: 1
+2024-11-29:14:29:39 [main.py]: fixed_memory: False
+2024-11-29:14:29:39 [main.py]: dataset: cifar100
+2024-11-29:14:29:39 [main.py]: increment: 10
+2024-11-29:14:29:39 [main.py]: batch_size: 128
+2024-11-29:14:29:39 [main.py]: workers: 0
+2024-11-29:14:29:39 [main.py]: threads: 1
+2024-11-29:14:29:39 [main.py]: validation: 0.0
+2024-11-29:14:29:39 [main.py]: random_classes: False
+2024-11-29:14:29:39 [main.py]: order: None
+2024-11-29:14:29:39 [main.py]: max_task: None
+2024-11-29:14:29:39 [main.py]: onehot: False
+2024-11-29:14:29:39 [main.py]: initial_increment: None
+2024-11-29:14:29:39 [main.py]: sampler: None
+2024-11-29:14:29:39 [main.py]: data_path: /data_1/
+2024-11-29:14:29:39 [main.py]: lr: 0.3
+2024-11-29:14:29:39 [main.py]: weight_decay: 0.0001
+2024-11-29:14:29:39 [main.py]: scheduling: [140, 180]
+2024-11-29:14:29:39 [main.py]: lr_decay: 0.2
+2024-11-29:14:29:39 [main.py]: optimizer: sgd
+2024-11-29:14:29:39 [main.py]: epochs: 200
+2024-11-29:14:29:39 [main.py]: loss_type: logit
+2024-11-29:14:29:39 [main.py]: loss_rate: 0
+2024-11-29:14:29:39 [main.py]: gcn_hidden: 16
+2024-11-29:14:29:39 [main.py]: gcn_dropout: 0.5
+2024-11-29:14:29:39 [main.py]: connect_num: 10
+2024-11-29:14:29:39 [main.py]: connect_all: False
+2024-11-29:14:29:39 [main.py]: update_every_time: False
+2024-11-29:14:29:39 [main.py]: use_gcn: False
+2024-11-29:14:29:39 [main.py]: task_epoch: [70]
+2024-11-29:14:29:39 [main.py]: task_lr: [0.5]
+2024-11-29:14:29:39 [main.py]: device: [0]
+2024-11-29:14:29:39 [main.py]: label: None
+2024-11-29:14:29:39 [main.py]: autolabel: False
+2024-11-29:14:29:39 [main.py]: seed: [1]
+2024-11-29:14:29:39 [main.py]: seed_range: None
+2024-11-29:14:29:39 [main.py]: options: None
+2024-11-29:14:29:39 [main.py]: save_model: never
+2024-11-29:14:29:39 [main.py]: dump_predictions: False
+2024-11-29:14:29:39 [main.py]: logging: info
+2024-11-29:14:29:39 [main.py]: resume: None
+2024-11-29:14:29:39 [main.py]: resume_first: False
+2024-11-29:14:29:39 [main.py]: recompute_meta: False
+2024-11-29:14:29:39 [main.py]: no_benchmark: False
+2024-11-29:14:29:39 [main.py]: detect_anomaly: False
+2024-11-29:14:29:39 [train.py]: Launching run 1/1
+2024-11-29:14:29:39 [train.py]: Set seed 1
+2024-11-29:14:29:39 [train.py]: CUDA algos are determinists but very slow!
+2024-11-29:14:30:24 [main.py]: model: icarl
+2024-11-29:14:30:24 [main.py]: convnet: rebuffi
+2024-11-29:14:30:24 [main.py]: dropout: 0.0
+2024-11-29:14:30:24 [main.py]: herding: None
+2024-11-29:14:30:24 [main.py]: memory_size: 2000
+2024-11-29:14:30:24 [main.py]: temperature: 1
+2024-11-29:14:30:24 [main.py]: fixed_memory: False
+2024-11-29:14:30:24 [main.py]: dataset: cifar100
+2024-11-29:14:30:24 [main.py]: increment: 10
+2024-11-29:14:30:24 [main.py]: batch_size: 128
+2024-11-29:14:30:24 [main.py]: workers: 0
+2024-11-29:14:30:24 [main.py]: threads: 1
+2024-11-29:14:30:24 [main.py]: validation: 0.0
+2024-11-29:14:30:24 [main.py]: random_classes: False
+2024-11-29:14:30:24 [main.py]: order: None
+2024-11-29:14:30:24 [main.py]: max_task: None
+2024-11-29:14:30:24 [main.py]: onehot: False
+2024-11-29:14:30:24 [main.py]: initial_increment: None
+2024-11-29:14:30:24 [main.py]: sampler: None
+2024-11-29:14:30:24 [main.py]: data_path: /data_1/
+2024-11-29:14:30:24 [main.py]: lr: 0.3
+2024-11-29:14:30:24 [main.py]: weight_decay: 0.0001
+2024-11-29:14:30:24 [main.py]: scheduling: [140, 180]
+2024-11-29:14:30:24 [main.py]: lr_decay: 0.2
+2024-11-29:14:30:24 [main.py]: optimizer: sgd
+2024-11-29:14:30:24 [main.py]: epochs: 200
+2024-11-29:14:30:24 [main.py]: loss_type: logit
+2024-11-29:14:30:24 [main.py]: loss_rate: 0
+2024-11-29:14:30:24 [main.py]: gcn_hidden: 16
+2024-11-29:14:30:24 [main.py]: gcn_dropout: 0.5
+2024-11-29:14:30:24 [main.py]: connect_num: 10
+2024-11-29:14:30:24 [main.py]: connect_all: False
+2024-11-29:14:30:24 [main.py]: update_every_time: False
+2024-11-29:14:30:24 [main.py]: use_gcn: False
+2024-11-29:14:30:24 [main.py]: task_epoch: [70]
+2024-11-29:14:30:24 [main.py]: task_lr: [0.5]
+2024-11-29:14:30:24 [main.py]: device: [0]
+2024-11-29:14:30:24 [main.py]: label: None
+2024-11-29:14:30:24 [main.py]: autolabel: False
+2024-11-29:14:30:24 [main.py]: seed: [1]
+2024-11-29:14:30:24 [main.py]: seed_range: None
+2024-11-29:14:30:24 [main.py]: options: None
+2024-11-29:14:30:24 [main.py]: save_model: never
+2024-11-29:14:30:24 [main.py]: dump_predictions: False
+2024-11-29:14:30:24 [main.py]: logging: info
+2024-11-29:14:30:24 [main.py]: resume: None
+2024-11-29:14:30:24 [main.py]: resume_first: False
+2024-11-29:14:30:24 [main.py]: recompute_meta: False
+2024-11-29:14:30:24 [main.py]: no_benchmark: False
+2024-11-29:14:30:24 [main.py]: detect_anomaly: False
+2024-11-29:14:30:24 [train.py]: Launching run 1/1
+2024-11-29:14:30:24 [train.py]: Set seed 1
+2024-11-29:14:30:24 [train.py]: CUDA algos are determinists but very slow!
+2024-11-29:15:00:06 [main.py]: model: icarl
+2024-11-29:15:00:06 [main.py]: convnet: rebuffi
+2024-11-29:15:00:06 [main.py]: dropout: 0.0
+2024-11-29:15:00:06 [main.py]: herding: None
+2024-11-29:15:00:06 [main.py]: memory_size: 2000
+2024-11-29:15:00:06 [main.py]: temperature: 1
+2024-11-29:15:00:06 [main.py]: fixed_memory: False
+2024-11-29:15:00:06 [main.py]: dataset: cifar100
+2024-11-29:15:00:06 [main.py]: increment: 10
+2024-11-29:15:00:06 [main.py]: batch_size: 128
+2024-11-29:15:00:06 [main.py]: workers: 0
+2024-11-29:15:00:06 [main.py]: threads: 1
+2024-11-29:15:00:06 [main.py]: validation: 0.0
+2024-11-29:15:00:06 [main.py]: random_classes: False
+2024-11-29:15:00:06 [main.py]: order: None
+2024-11-29:15:00:06 [main.py]: max_task: None
+2024-11-29:15:00:06 [main.py]: onehot: False
+2024-11-29:15:00:06 [main.py]: initial_increment: None
+2024-11-29:15:00:06 [main.py]: sampler: None
+2024-11-29:15:00:06 [main.py]: data_path: /data_1/
+2024-11-29:15:00:06 [main.py]: lr: 0.3
+2024-11-29:15:00:06 [main.py]: weight_decay: 0.0001
+2024-11-29:15:00:06 [main.py]: scheduling: [140, 180]
+2024-11-29:15:00:06 [main.py]: lr_decay: 0.2
+2024-11-29:15:00:06 [main.py]: optimizer: sgd
+2024-11-29:15:00:06 [main.py]: epochs: 200
+2024-11-29:15:00:06 [main.py]: loss_type: logit
+2024-11-29:15:00:06 [main.py]: loss_rate: 0
+2024-11-29:15:00:06 [main.py]: gcn_hidden: 16
+2024-11-29:15:00:06 [main.py]: gcn_dropout: 0.5
+2024-11-29:15:00:06 [main.py]: connect_num: 10
+2024-11-29:15:00:06 [main.py]: connect_all: False
+2024-11-29:15:00:06 [main.py]: update_every_time: False
+2024-11-29:15:00:06 [main.py]: use_gcn: False
+2024-11-29:15:00:06 [main.py]: task_epoch: [70]
+2024-11-29:15:00:06 [main.py]: task_lr: [0.5]
+2024-11-29:15:00:06 [main.py]: device: [0]
+2024-11-29:15:00:06 [main.py]: label: None
+2024-11-29:15:00:06 [main.py]: autolabel: False
+2024-11-29:15:00:06 [main.py]: seed: [1]
+2024-11-29:15:00:06 [main.py]: seed_range: None
+2024-11-29:15:00:06 [main.py]: options: None
+2024-11-29:15:00:06 [main.py]: save_model: never
+2024-11-29:15:00:06 [main.py]: dump_predictions: False
+2024-11-29:15:00:06 [main.py]: logging: info
+2024-11-29:15:00:06 [main.py]: resume: None
+2024-11-29:15:00:06 [main.py]: resume_first: False
+2024-11-29:15:00:06 [main.py]: recompute_meta: False
+2024-11-29:15:00:06 [main.py]: no_benchmark: False
+2024-11-29:15:00:06 [main.py]: detect_anomaly: False
+2024-11-29:15:00:06 [train.py]: Launching run 1/1
+2024-11-29:15:00:06 [train.py]: Set seed 1
+2024-11-29:15:00:06 [train.py]: CUDA algos are determinists but very slow!
+2024-11-29:15:00:09 [incdata.py]: Dataset iCIFAR100: class ordering: [87, 0, 52, 58, 44, 91, 68, 97, 51, 15, 94, 92, 10, 72, 49, 78, 61, 14, 8, 86, 84, 96, 18, 24, 32, 45, 88, 11, 4, 67, 69, 66, 77, 47, 79, 93, 29, 50, 57, 83, 17, 81, 41, 12, 37, 59, 25, 20, 80, 73, 1, 28, 6, 46, 62, 82, 53, 9, 31, 75, 38, 63, 33, 74, 27, 22, 36, 3, 16, 21, 60, 19, 70, 90, 89, 43, 5, 42, 65, 76, 40, 30, 23, 85, 2, 95, 56, 48, 71, 64, 98, 13, 99, 7, 34, 55, 54, 26, 35, 39].
+2024-11-29:15:00:09 [datasets.py]: Not using color jitter.
+2024-11-29:15:00:09 [basenet_1.py]: Post processor is: None
+2024-11-29:15:00:09 [my_resnet.py]: Downsampling type stride
+2024-11-29:15:00:09 [basenet_1.py]: Features will be extracted without the last ReLU.
+2024-11-29:15:00:09 [train.py]: Model will be save at this rythm: never.
+2024-11-29:15:00:09 [incdata.py]: Testing on False unseen tasks (max class = 10).
+2024-11-29:15:00:09 [icarl.py]: Now 200 examplars per class.
+2024-11-29:15:00:09 [train.py]: Train on 0->10.
+2024-11-29:15:07:27 [icarl.py]: Building & updating memory.
+2024-11-29:15:07:28 [train.py]: Eval on 0->10.
+2024-11-29:15:07:28 [train.py]: Avg inc acc: 0.91.
+2024-11-29:15:07:28 [train.py]: Current acc: {'total': 0.91, '00-09': 0.91}.
+2024-11-29:15:07:28 [train.py]: Avg inc acc top5: 0.995.
+2024-11-29:15:07:28 [train.py]: Current acc top5: {'total': 0.995}.
+2024-11-29:15:07:28 [train.py]: Forgetting: 0.0.
+2024-11-29:15:07:28 [train.py]: Cord metric: 0.91.
+2024-11-29:15:07:28 [incdata.py]: Testing on False unseen tasks (max class = 20).
+2024-11-29:15:07:28 [incdata.py]: Set memory of size: 2000.
+2024-11-29:15:07:28 [icarl.py]: Now 100 examplars per class.
+2024-11-29:15:07:28 [train.py]: Train on 10->20.
+2024-11-29:15:18:04 [icarl.py]: Building & updating memory.
+2024-11-29:15:18:07 [train.py]: Eval on 0->20.
+2024-11-29:15:18:07 [train.py]: Avg inc acc: 0.865.
+2024-11-29:15:18:07 [train.py]: Current acc: {'total': 0.82, '00-09': 0.846, '10-19': 0.794}.
+2024-11-29:15:18:07 [train.py]: Avg inc acc top5: 0.9835.
+2024-11-29:15:18:07 [train.py]: Current acc top5: {'total': 0.972}.
+2024-11-29:15:18:07 [train.py]: Forgetting: -0.24333333333333332.
+2024-11-29:15:18:07 [train.py]: Cord metric: 0.84.
+2024-11-29:15:18:07 [train.py]: Old accuracy: 0.85, mean: 0.85.
+2024-11-29:15:18:07 [train.py]: New accuracy: 0.79, mean: 0.79.
+2024-11-29:15:18:07 [incdata.py]: Testing on False unseen tasks (max class = 30).
+2024-11-29:15:18:07 [incdata.py]: Set memory of size: 2000.
+2024-11-29:15:18:07 [icarl.py]: Now 66 examplars per class.
+2024-11-29:15:18:07 [train.py]: Train on 20->30.
+2024-11-29:15:30:29 [icarl.py]: Building & updating memory.
+2024-11-29:15:30:34 [train.py]: Eval on 0->30.
+2024-11-29:15:30:34 [train.py]: Avg inc acc: 0.824.
+2024-11-29:15:30:34 [train.py]: Current acc: {'total': 0.742, '00-09': 0.807, '10-19': 0.701, '20-29': 0.718}.
+2024-11-29:15:30:34 [train.py]: Avg inc acc top5: 0.9700000000000001.
+2024-11-29:15:30:34 [train.py]: Current acc top5: {'total': 0.943}.
+2024-11-29:15:30:34 [train.py]: Forgetting: -0.13049999999999998.
+2024-11-29:15:30:34 [train.py]: Cord metric: 0.77.
+2024-11-29:15:30:34 [train.py]: Old accuracy: 0.75, mean: 0.80.
+2024-11-29:15:30:34 [train.py]: New accuracy: 0.72, mean: 0.76.
+2024-11-29:15:30:34 [incdata.py]: Testing on False unseen tasks (max class = 40).
+2024-11-29:15:30:34 [incdata.py]: Set memory of size: 1980.
+2024-11-29:15:30:34 [icarl.py]: Now 50 examplars per class.
+2024-11-29:15:30:34 [train.py]: Train on 30->40.
+2024-11-29:15:40:49 [icarl.py]: Building & updating memory.
+2024-11-29:15:40:55 [train.py]: Eval on 0->40.
+2024-11-29:15:40:55 [train.py]: Avg inc acc: 0.7855.
+2024-11-29:15:40:55 [train.py]: Current acc: {'total': 0.67, '00-09': 0.774, '10-19': 0.641, '20-29': 0.659, '30-39': 0.605}.
+2024-11-29:15:40:55 [train.py]: Avg inc acc top5: 0.95625.
+2024-11-29:15:40:55 [train.py]: Current acc top5: {'total': 0.915}.
+2024-11-29:15:40:55 [train.py]: Forgetting: -0.0514.
+2024-11-29:15:40:55 [train.py]: Cord metric: 0.71.
+2024-11-29:15:40:55 [train.py]: Old accuracy: 0.69, mean: 0.76.
+2024-11-29:15:40:55 [train.py]: New accuracy: 0.60, mean: 0.71.
+2024-11-29:15:40:55 [incdata.py]: Testing on False unseen tasks (max class = 50).
+2024-11-29:15:40:56 [incdata.py]: Set memory of size: 2000.
+2024-11-29:15:40:56 [icarl.py]: Now 40 examplars per class.
+2024-11-29:15:40:56 [train.py]: Train on 40->50.
+2024-11-29:15:51:06 [icarl.py]: Building & updating memory.
+2024-11-29:15:51:13 [train.py]: Eval on 0->50.
+2024-11-29:15:51:14 [train.py]: Avg inc acc: 0.7545999999999999.
+2024-11-29:15:51:14 [train.py]: Current acc: {'total': 0.631, '00-09': 0.742, '10-19': 0.635, '20-29': 0.572, '30-39': 0.528, '40-49': 0.677}.
+2024-11-29:15:51:14 [train.py]: Avg inc acc top5: 0.9438000000000001.
+2024-11-29:15:51:14 [train.py]: Current acc top5: {'total': 0.894}.
+2024-11-29:15:51:14 [train.py]: Forgetting: -0.021166666666666667.
+2024-11-29:15:51:14 [train.py]: Cord metric: 0.68.
+2024-11-29:15:51:14 [train.py]: Old accuracy: 0.62, mean: 0.73.
+2024-11-29:15:51:14 [train.py]: New accuracy: 0.68, mean: 0.70.
+2024-11-29:15:51:14 [incdata.py]: Testing on False unseen tasks (max class = 60).
+2024-11-29:15:51:14 [incdata.py]: Set memory of size: 2000.
+2024-11-29:15:51:14 [icarl.py]: Now 33 examplars per class.
+2024-11-29:15:51:14 [train.py]: Train on 50->60.
+2024-11-29:16:01:09 [icarl.py]: Building & updating memory.
+2024-11-29:16:01:17 [train.py]: Eval on 0->60.
+2024-11-29:16:01:18 [train.py]: Avg inc acc: 0.73.
+2024-11-29:16:01:18 [train.py]: Current acc: {'total': 0.607, '00-09': 0.71, '10-19': 0.604, '20-29': 0.535, '30-39': 0.482, '40-49': 0.61, '50-59': 0.701}.
+2024-11-29:16:01:18 [train.py]: Avg inc acc top5: 0.9336666666666668.
+2024-11-29:16:01:18 [train.py]: Current acc top5: {'total': 0.883}.
+2024-11-29:16:01:18 [train.py]: Forgetting: 0.008857142857142881.
+2024-11-29:16:01:18 [train.py]: Cord metric: 0.66.
+2024-11-29:16:01:18 [train.py]: Old accuracy: 0.59, mean: 0.70.
+2024-11-29:16:01:18 [train.py]: New accuracy: 0.70, mean: 0.70.
+2024-11-29:16:01:18 [incdata.py]: Testing on False unseen tasks (max class = 70).
+2024-11-29:16:01:18 [incdata.py]: Set memory of size: 1980.
+2024-11-29:16:01:18 [icarl.py]: Now 28 examplars per class.
+2024-11-29:16:01:18 [train.py]: Train on 60->70.
+2024-11-29:16:11:09 [icarl.py]: Building & updating memory.
+2024-11-29:16:11:18 [train.py]: Eval on 0->70.
+2024-11-29:16:11:19 [train.py]: Avg inc acc: 0.7055714285714286.
+2024-11-29:16:11:19 [train.py]: Current acc: {'total': 0.559, '00-09': 0.668, '10-19': 0.552, '20-29': 0.485, '30-39': 0.463, '40-49': 0.536, '50-59': 0.641, '60-69': 0.567}.
+2024-11-29:16:11:19 [train.py]: Avg inc acc top5: 0.922.
+2024-11-29:16:11:19 [train.py]: Current acc top5: {'total': 0.852}.
+2024-11-29:16:11:19 [train.py]: Forgetting: 0.06162500000000001.
+2024-11-29:16:11:19 [train.py]: Cord metric: 0.63.
+2024-11-29:16:11:19 [train.py]: Old accuracy: 0.56, mean: 0.68.
+2024-11-29:16:11:19 [train.py]: New accuracy: 0.57, mean: 0.68.
+2024-11-29:16:11:19 [incdata.py]: Testing on False unseen tasks (max class = 80).
+2024-11-29:16:11:19 [incdata.py]: Set memory of size: 1960.
+2024-11-29:16:11:19 [icarl.py]: Now 25 examplars per class.
+2024-11-29:16:11:19 [train.py]: Train on 70->80.
+2024-11-29:16:21:10 [icarl.py]: Building & updating memory.
+2024-11-29:16:21:21 [train.py]: Eval on 0->80.
+2024-11-29:16:21:22 [train.py]: Avg inc acc: 0.684.
+2024-11-29:16:21:22 [train.py]: Current acc: {'total': 0.533, '00-09': 0.62, '10-19': 0.524, '20-29': 0.446, '30-39': 0.428, '40-49': 0.52, '50-59': 0.604, '60-69': 0.496, '70-79': 0.624}.
+2024-11-29:16:21:22 [train.py]: Avg inc acc top5: 0.911.
+2024-11-29:16:21:22 [train.py]: Current acc top5: {'total': 0.834}.
+2024-11-29:16:21:22 [train.py]: Forgetting: 0.0788888888888889.
+2024-11-29:16:21:22 [train.py]: Cord metric: 0.61.
+2024-11-29:16:21:22 [train.py]: Old accuracy: 0.52, mean: 0.65.
+2024-11-29:16:21:22 [train.py]: New accuracy: 0.62, mean: 0.67.
+2024-11-29:16:21:22 [incdata.py]: Testing on False unseen tasks (max class = 90).
+2024-11-29:16:21:22 [incdata.py]: Set memory of size: 2000.
+2024-11-29:16:21:22 [icarl.py]: Now 22 examplars per class.
+2024-11-29:16:21:22 [train.py]: Train on 80->90.
+2024-11-29:16:31:24 [icarl.py]: Building & updating memory.
+2024-11-29:16:31:36 [train.py]: Eval on 0->90.
+2024-11-29:16:31:38 [train.py]: Avg inc acc: 0.6626666666666667.
+2024-11-29:16:31:38 [train.py]: Current acc: {'total': 0.492, '00-09': 0.571, '10-19': 0.444, '20-29': 0.359, '30-39': 0.374, '40-49': 0.466, '50-59': 0.588, '60-69': 0.464, '70-79': 0.539, '80-89': 0.623}.
+2024-11-29:16:31:38 [train.py]: Avg inc acc top5: 0.8995555555555556.
+2024-11-29:16:31:38 [train.py]: Current acc top5: {'total': 0.808}.
+2024-11-29:16:31:38 [train.py]: Forgetting: 0.11679999999999999.
+2024-11-29:16:31:38 [train.py]: Cord metric: 0.59.
+2024-11-29:16:31:38 [train.py]: Old accuracy: 0.48, mean: 0.63.
+2024-11-29:16:31:38 [train.py]: New accuracy: 0.62, mean: 0.66.
+2024-11-29:16:31:38 [incdata.py]: Testing on False unseen tasks (max class = 100).
+2024-11-29:16:31:38 [incdata.py]: Set memory of size: 1980.
+2024-11-29:16:31:38 [icarl.py]: Now 20 examplars per class.
+2024-11-29:16:31:38 [train.py]: Train on 90->100.
+2024-11-29:16:41:24 [icarl.py]: Building & updating memory.
+2024-11-29:16:41:38 [train.py]: Eval on 0->100.
+2024-11-29:16:41:40 [train.py]: Avg inc acc: 0.6416000000000001.
+2024-11-29:16:41:40 [train.py]: Current acc: {'total': 0.452, '00-09': 0.523, '10-19': 0.41, '20-29': 0.34, '30-39': 0.327, '40-49': 0.421, '50-59': 0.495, '60-69': 0.429, '70-79': 0.496, '80-89': 0.582, '90-99': 0.497}.
+2024-11-29:16:41:40 [train.py]: Avg inc acc top5: 0.8878.
+2024-11-29:16:41:40 [train.py]: Current acc top5: {'total': 0.782}.
+2024-11-29:16:41:40 [train.py]: Forgetting: 0.15445454545454548.
+2024-11-29:16:41:40 [train.py]: Cord metric: 0.56.
+2024-11-29:16:41:40 [train.py]: Old accuracy: 0.45, mean: 0.61.
+2024-11-29:16:41:40 [train.py]: New accuracy: 0.50, mean: 0.65.
+2024-11-29:16:41:40 [train.py]: Average Incremental Accuracy: 0.6416000000000001.
+2024-11-29:16:41:40 [train.py]: Training finished in 6093s.
+2024-11-29:16:41:40 [train.py]: Label was: None
+2024-11-29:16:41:40 [train.py]: Results done on 1 seeds: avg: 64.16, last: 45.2, forgetting: 15.45
+2024-11-29:16:41:40 [train.py]: Individual results avg: [64.16]
+2024-11-29:16:41:40 [train.py]: Individual results last: [45.2]
+2024-11-29:16:41:40 [train.py]: Individual results forget: [15.45]
+2024-11-29:16:41:40 [train.py]: Command was main.py --dataset cifar100 --epochs 200 --lr 0.3 --device 0
